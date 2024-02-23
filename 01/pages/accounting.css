@@ -1,0 +1,30 @@
+
+section.accounting-table {
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.table-header {
+
+}
+
+div.table-body {
+
+}
+
+table.table {
+    border-collapse: collapse;
+}
+
+table.table th, table.table td {
+    padding: .6rem .75rem;
+    width: auto;
+}
+
+div.table-footer {
+
+}

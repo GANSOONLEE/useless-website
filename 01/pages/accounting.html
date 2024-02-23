@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Frankgan0402">
+    <title>01 - 記賬系統</title>
+    <link rel=" stylesheet" as="style" href="./accounting.css">
+    <link rel=" stylesheet" as="style" href="../__reset.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body id="app">
+    
+    <h1>記賬系統 Accounting System</h1>
+
+    <!-- Auth -->
+    <!-- <div>
+        你必須驗證你的身份才能使用
+    </div> -->
+
+    <section class="accounting-table">
+        <h2>最近的現金流</h2>
+        <div class="table-header">
+
+        </div>
+        <div class="table-body">
+            <table border="1" class="table">
+                <thead>
+                    <tr>
+                        <th>記錄序號</th>
+                        <th style="width: 350px;">類型</th>
+                        <th style="width: 150px;">數額 (NTD)</th>
+                        <th style="width: 85px;">日期</th>
+                        <th style="width: 85px;">時間</th>
+                    </tr>
+                </thead>
+                <tbody id="cashflow-record">
+                    <tr>
+                        <td>0100231</td>
+                        <td>支出 - 電信費</td>
+                        <td>2,900</td>
+                        <td>2024-02-17</td>
+                        <td>13:03:24</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="table-footer">
+
+        </div>
+    </section>
+
+    <div class="footer">
+      技術開發：顏循禮<br>
+      <a href="https://github.frankgan.com">一個網頁全端工程師</a>
+    </div>
+
+  </body>
+  <script defer src="./accounting.js"></script>
+</html>
